@@ -29,5 +29,7 @@ This workflow allows users to classify reviews effectively and experiment with i
    - Download the notebooks from this repository to your own environment (local machine or preferred IDE).
 
 2. **Adjust File Paths:**  
-   - If the notebooks use Google Drive mounting, replace it with the file paths on your local computer.  
-   - Make sure your dataset and any required files are correctly referenced.
+   - All the notebooks use Google Drive mounting. After downloading to your personal environment, you can delete it or replace it with the file paths on your local computer.  
+   - for **Data_Preprocessing.ipynb**, **do not need to re-run** the notebook as the output has already been saved as separate data files. Please refer to the section **Pseudo Ground-truth Labelling** for the algorithm for ground-truth labeling and related results.
+   - The **Feature_Engineering_and_Model.ipynb** contains the baseline models (SVM and Logistic regression). Please refer to the beginning of the notebook for user guide.
+   - Similar for the **FineTuning.ipynb**, please refer to the beginning of the notebook for detailed user guide
