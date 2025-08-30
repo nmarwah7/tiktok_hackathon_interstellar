@@ -1,4 +1,4 @@
-text,rating,label,score,rating_flag
+text,rating,label,score,rating_flag,final_prediction
 Very Personable staff! Beautiful and clean environment. I will definitely become a regular customer!!,5,relevant,0.9147055149078369,False,relevant
 Best clothing intown,5,relevant,0.9259798526763916,False,relevant
 "Not friendly at all, as I ask questions about a seat it was like I was nothing more than a bother.... I am all for supporting local businesses. However, the attitude did it for me on this one!",1,relevant,0.8969953656196594,False,relevant
