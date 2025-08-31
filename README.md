@@ -32,7 +32,8 @@ The folder **pipeline** contains all the notebooks used for this project, and **
 
 ## Setup Instructions
 1. **Download the Notebooks:**  
-   - Download the notebooks from this repository to your own environment (local machine or preferred IDE).
+   - Download the notebooks from **pipeline** folder, models from **models** folder, and **data** to your own environment (local machine or preferred IDE).
+   - Preferably, please put the individual components from models and data in one shared folder, and set the working directory to be that folder when you wish to run the notebook.
 
 2. **Adjust File Paths:**  
    - All the notebooks use Google Drive mounting. After downloading to your personal environment, you can delete it or replace it with the file paths on your local computer.  
