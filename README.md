@@ -15,14 +15,20 @@ This workflow allows users to classify reviews effectively and experiment with i
 ## Repository Structure
 ```text
 ├── notebooks/
+├── pipeline/
 │ ├── feature_engineering_and_baseline.ipynb
 │ ├── fine_tuning_model.ipynb
 │ └── rule_based_policy_module.ipynb
+├── models/
+│ ├── logreg_model.joblib
+│ ├── numeric_scaler.joblib
+│ ├── svm_model.joblib
+│ └── tfidf_vectorizor.joblib
 ├── documents/ # some files
 ├── data/ # containing datasets
 └── README.md
 ```
-
+The folder **pipeline** contains all the notebooks used for this project, and **models** contains the saved components for baseline models. Note that for the fine-tuned model, the model components are too large to be uploaded to github. Therefore they are not included here.
 
 ## Setup Instructions
 1. **Download the Notebooks:**  
